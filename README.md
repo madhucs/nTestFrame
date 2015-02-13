@@ -11,8 +11,13 @@ dummytest
 
 2.Kick of steps , either write this in shell script and call from jenkins or directly.
    git clone https://github.com/madhucs/nTestFrame.git
+   
    cd nTestFrame/CheckMavenConfig/
+   
    mvn clean
+   
    mvn compile
+   
    mvn test
+   
 
